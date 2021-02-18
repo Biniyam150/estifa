@@ -1,0 +1,122 @@
+font-face {
+    src: url(fonts/Addis.ttf);
+    font-family:Addis ;
+}
+media (min-width:500px){.container-1 {display:flex;}}
+.container-1 div {border: 1px #ccc solid;padding: 5%;
+}
+.box-1 {
+    flex: 1;
+    order: 1;
+}
+.box-2 {
+    flex: 1;
+    order: 2;
+}
+.flex01 {background-color:blueviolet;
+}
+body {
+    width: 80%;
+    padding:5%;
+    padding-top: 2%;font-size: 200%;background-color: aquamarine;
+}
+p {
+    color:black;
+    text-align: justify;
+}
+@media (min-width: 500px){
+    #mainheader {
+     background-image: url(image11.jpg);
+        height: fit-content;
+        background-size: cover;-
+         {{text-align: center;
+        padding: 10%;
+        width: 80%;
+    }
+    #Home {
+        font-family:Addis;
+        color:crimson;
+        font-size: 50pt;
+        width: 80%;
+        text-align:center;
+    }
+}
+nav {
+    text-decoration: crimson;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30pt;
+    color:black;
+}
+#page u1 {
+    list-style-type:none ;
+    word-spacing: 10pt;
+}
+#page li{display: inline;
+}
+.button {
+    text-decoration: none;
+    color: darkblue;
+    font-style: italic;
+    font-size: 15pt;
+    background-size: 100%;
+    background-color: rgba(red, green, blue, alpha);
+    padding:  5%%;
+}
+.button:hover {
+    color: cyan;
+    background-color:black ;
+}
+a {
+    text-decoration:none;
+    font-size: 15pt;
+    font-style: italic;
+    background-size: 100%;
+    padding: 1%;
+}
+.intro {
+    color:black;
+    background-color:blueviolet;
+    padding:5% ;
+    padding-top: 1%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#story00 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#story1 {
+    color: lightgreen;
+    background-color:navy;
+background-color:orange ;
+color: lightgreen;
+text-decoration: none;
+color: black;
+text-transform: capitalize;
+padding: 5%;
+}
+#story2 {
+    color: blue;
+    background-color:yellow ;
+    padding: 5%;
+    padding-left:2% ;
+}
+#story3 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-size: 20pt;
+    color: yellow;
+    image-rendering: initial;
+}
+#story4 {
+    text-decoration: tomato;
+    color: yellowgreen;
+    padding: 5%;
+    padding-top: 5%;
+}
+@media (max-wdth:500px){
+    #mainheader{
+        padding: 5%;
+        text-align: center;
+        /*background-repeat
+    }
+}
+ 
